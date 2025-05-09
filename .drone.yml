@@ -1,3 +1,4 @@
+---
 kind: pipeline
 type: docker
 name: default
@@ -9,3 +10,4 @@ steps:
     - echo hello
     - sleep 10
     - echo world
+---
